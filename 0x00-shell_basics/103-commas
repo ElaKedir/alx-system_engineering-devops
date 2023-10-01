@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -A -1p | sort -d -t/ -k1.1,1.1 | tr '\n' ','; echo
+ls -apvm
